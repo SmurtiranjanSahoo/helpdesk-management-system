@@ -1,0 +1,94 @@
+.fade {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.form-select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23636f83' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
+}
+
+/* ant design */
+.ant-btn-sm {
+  background-color: #262626;
+}
+.ant-picker-disabled {
+  background: none !important;
+}
+/* ant design */
+
+.iti {
+  width: 100% !important;
+}
+
+.iti--separate-dial-code .iti__selected-flag {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.iti__country-list {
+  width: 352px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+html:not([dir="rtl"]) .form-select {
+  background-position: right 0.75rem center;
+}
+
+html:not([dir="rtl"]) .form-select {
+  /* padding: 0.375rem 2.25rem 0.375rem 0.75rem; */
+}
+
+button:disabled,
+button:disabled:hover {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+input:disabled {
+  background: transparent;
+}
+
+input,
+textarea {
+  outline-color: #262626;
+}
+
+/* jodit email editor  */
+.jodit-react-container,
+.jodit-container {
+  width: 100% !important;
+  /* height: 100% !important; */
+  font-size: 14px;
+}
+.jodit-workplace {
+  min-height: 300px !important;
+  /* height: calc(100% - 80px) !important; */
+}
+.jodit-wysiwyg {
+  background: #ffffff;
+  height: 100% !important;
+}
+
+.jodit-status-bar-link {
+  display: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    display: none;
+  }
+}
